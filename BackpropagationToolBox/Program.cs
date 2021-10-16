@@ -46,11 +46,11 @@ namespace BackpropagationToolBox
             // internal training parameters
             float learningRate = 0.01f;
 
-            float[] errorNow = MatrixHelpers.Instance.Ones(trainingNumber, K);
-            float[] errorPre = MatrixHelpers.Instance.Ones(trainingNumber, K);
+            //float[] errorNow = MatrixHelpers.Instance.Ones(trainingNumber, K);
+            //float[] errorPre = MatrixHelpers.Instance.Ones(trainingNumber, K);
 
-            float errorNowValue = MatrixHelpers.Instance.Sum(errorNow) / trainingNumber;
-            float errorPreValue = MatrixHelpers.Instance.Sum(errorPre) / trainingNumber;
+            //float errorNowValue = MatrixHelpers.Instance.Sum(errorNow) / trainingNumber;
+            //float errorPreValue = MatrixHelpers.Instance.Sum(errorPre) / trainingNumber;
 
 
             //// Create the time series with 0.01 step size
